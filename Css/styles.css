@@ -1,0 +1,182 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1E1E1E;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 20px;
+}
+
+
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+
+nav {
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #00ccff; 
+}
+
+.info-section {
+  max-width: 600px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h1, h2, h3 {
+  color: #FFA500;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+.keyword {
+  color: #00ccff;
+}
+
+
+#mis-panas {
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center; 
+}
+
+#mis-panas {
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+.amigo {
+  display: inline-block;
+  width: 30%;
+  margin-right: 2%;
+  margin-top: 20px;
+  text-align: center; 
+}
+
+.amigo img {
+  max-width: 100%;
+  border-radius: 50%; 
+  margin-bottom: 10px; 
+}
+
+.amigo h3 {
+  margin-bottom: 10px;
+  color: #FFF;
+  padding: 5px 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.amigo:hover img {
+  transform: scale(1.1); 
+}
+
+.amigo:hover h3 {
+  opacity: 1; 
+}
+
+#mis-carros-fav { 
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center; 
+}
+
+#mis-carros-fav {
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center; 
+}
+
+.carro {
+  display: inline-block;
+  width: 30%;
+  margin-right: 2%;
+  margin-top: 20px;
+  text-align: center;
+}
+ 
+.carro img {
+  max-width: 100%;
+  border-radius: 50%; 
+  margin-bottom: 10px;
+}
+
+.carro h3 {
+  margin-bottom: 10px;
+  color: #FFF;
+  padding: 5px 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.carro:hover img {
+  transform: scale(1.1);
+}
+
+.carro:hover h3 {
+  opacity: 1;
+}
+
+.amigo img,
+.carro img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease; 
+}
+
+.amigo:hover img,
+.carro:hover img {
+   
+}
+
+.info-section {
+  max-width: 80%; 
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center; 
+}
+
+.amigo,
+.carro {
+  display: inline-block;
+  width: 30%;
+  margin-right: 2%;
+  margin-top: 20px;
+  overflow: hidden; 
+  position: relative; 
+}
+
+.amigo img,
+.carro img {
+  
+  width: 210px;
+  height: 200px;
+  object-fit: cover; /
+  border-radius: 10px;
+}
